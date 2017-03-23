@@ -4,7 +4,7 @@ return {
 	plugins = {
 		'Admin.lua',
 		'Tools.lua',
-		'FunTg.lua',
+		'Funbot.lua',
 
 	},
 	api_errors = {
