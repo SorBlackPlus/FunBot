@@ -1,5 +1,5 @@
--- Devloper @Bot_Api
--- Channel @NewsBotApi
+-- Devloper @SorBlack
+-- Channel @PrimeTeam & @Prime_Plus
 local triggers = {
 	'^/(bc) (.*)$',
 	'^/(id)$',
@@ -40,5 +40,5 @@ return {
 	action = action,
 	triggers = triggers,
 }
--- Devloper @Bot_Api
--- Channel @NewsBotApi
+-- Devloper @SorBlack
+-- Channel @PrimeTeam
