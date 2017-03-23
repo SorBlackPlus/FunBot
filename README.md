@@ -1,4 +1,4 @@
-# FunTgBot
+# Funbot
 
 
 
@@ -6,9 +6,9 @@
 
 </pre>
 <h1>چنل ما</h1>
-<a href="https://t.me/beyondteam"><h3>beyond</h3></a>
+<a href="https://t.me/PrimeTeam"><h3>PrimeTeam</h3></a>
 <h1>سازنده</h1>
-<a href="https://t.me/Bot_Api"><h3>MR.AmirAlone</h3></a>
+<a href="https://t.me/SorBlack"><h3>SorBlack</h3></a>
 
 
 
@@ -46,15 +46,19 @@
 
 
 
- git clone https://github.com/MrAmirAlone/FunTg
+ git clone https://github.com/SorBlackPlus/Funbot
  
  
  توکن و ایدی سودو در فایل کانفیگ قرار داده شود
 
 
- cd FunTG && sudo chmod 777 auto.sh && ./auto.sh
+ cd Funbot && sudo chmod 777 auto.sh && ./auto.sh
  
 
 
 ````
+`
+#For Help more:
+Please send massage to `@Pmsorblackbot`=[@Pmsorblackbot](https://t.me/Pmsorblackbot)
+`
 
