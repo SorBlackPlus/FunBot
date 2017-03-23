@@ -1,5 +1,5 @@
--- Devloper @Bot_Api
--- Channel @NewsBotApi and @BeyondTeam
+-- Devloper @SorBlack
+-- Channel @PirmeTeam & @Prime_Plus
 local triggers = {
   '^/(start)$',
   '^/(mod)$',
@@ -751,5 +751,5 @@ end
       triggers = triggers,
 
     }
--- Devloper @Bot_Api
--- Channel @NewsBotApi
+-- Devloper @SorBlack
+-- Channel @PrimeTeam
