@@ -400,7 +400,7 @@ local function sp()
 		}
     return keyboard
 end
-local function About()
+local function about()
                 local keyboard = {}
           keyboard.inline_keyboard = {
             {
