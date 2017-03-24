@@ -4,12 +4,9 @@
 
 
 
-</pre>
-<h1>چنل ما</h1>
-<a href="https://t.me/PrimeTeam"><h3>PrimeTeam</h3></a>
-<h1>سازنده</h1>
-<a href="https://t.me/SorBlack"><h3>SorBlack</h3></a>
+[چنل ما](https://t.me/PrimeTeam)
 
+[سازنده سورس و بات](https://t.me/SorBlack)
 
 
 آموزش نصب
