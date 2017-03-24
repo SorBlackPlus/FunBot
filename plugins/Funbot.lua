@@ -13,8 +13,8 @@ local triggers = {
   '^###cb:/(md)',
   '^###cb:/(em)',
   '^###cb:/(sp)',
-  '^###cb:/(Amir)',
-  '^###cb:/(mehdi)',
+  '^###cb:/(SorBlack)',
+  '^###cb:/(nagin)',
   '^###cb:/(dastanak)',
   '^###cb:/(redastanak)',
   '^###cb:/(chistan)',
@@ -386,10 +386,10 @@ local function sp()
                 local keyboard = {}
           keyboard.inline_keyboard = {
 		    {
-			  {text = "Mr.AmirHossein", callback_data = "/Amir"}
+			  {text = "SorBlack", callback_data = "/SorBlack"}
 		    },
 			{
-			  {text = "Mehdi", callback_data = "/mehdi"}
+			  {text = "SorBlack", callback_data = "/SorBlack"}
 			},
 --  		{
 --			  {text = "ارتباط مستقیم", callback_data = "/chat"}
@@ -405,16 +405,16 @@ local function about()
           keyboard.inline_keyboard = {
             {
 
-              {text = "سازنده ربات", url = "https://t.me/Bot_Api"},{text = "همین حالا 5 ستاره دهید", url = "https://t.me/storebot?start=FallGirRobot"},
+              {text = "سازنده ربات", url = "https://t.me/SorBlack"},{text = "همین حالا 5 ستاره دهید", url = "https://t.me/storebot?start=BestFunRobot"},
             },
             {
-              {text = "کمک کننده", url = "https://t.me/HEXTOR"},{text = "Api نویس سایت", url = "https://t.me/Bots_sudo"},
+              {text = "کمک کننده", url = "https://t.me/nagin"},{text = "کمک تو ساخت ربات", url = "https://t.me/iam_nagin"},
             },
             {
-              {text = "کانال ربات", url = "https://t.me/BeyondTeam"},{text = "کانال اخبار ربات", url = "https://t.me/NewsBotApi"}
+              {text = "کانال ربات", url = "https://t.me/PrimeTeam"},{text = "کانال اخبار ربات", url = "https://t.me/PrimeTeam"}
             },
             {
-              {text = "اسپانسر تیم", url = "https://t.me/StoreVps",}
+              {text = "اسپانسر تیم", url = "https://t.me/XVII_Hacker",}
             },
             {
               {text = "بازگشت🔙", callback_data = "/kb"},
@@ -422,17 +422,17 @@ local function about()
           }
     return keyboard
 end
-local function AmirH()
+local function SorBlack()
                 local keyboard = {}
           keyboard.inline_keyboard = {
 			{
-		      {text = "ارسال پیام", url = "https://t.me/Bot_Api"},
+		      {text = "ارسال پیام", url = "https://t.me/SorBlack"},
 			},
 			{
-			  {text = "ریپورتم", url = "https://t.me/MrAmirAloneBot"},
+			  {text = "ریپورتم", url = "https://t.me/PmSorBlackBot"},
 			},
 			{
-			  {text = "کانال شخصی", url = "https://t.me/MrAmirAlone"},
+			  {text = "کانال شخصی", url = "https://t.me/PrimeTeam"},
 		  },
 		    {
 			  {text = "بازگشت🔙", callback_data="/sp"},
@@ -464,7 +464,7 @@ local action = function(msg, matches)
     if matches[1] == 'start' then
       local Start = [[سلام دوست عزیز به بهترین ربات سرگرمی تلگرام خوش امدید
           این ربات از نظر سرعت و امکانات یکی از بهترین ربات های تلگرامی در قسمت سرگرمیه
-		  اگر مشکلی داشتید میتوانید از بخش پشتیبانی با ما در میان بگذارید😉
+		 اگر مشکلی داشتید میتوانید از بخش پشتیبانی با ما در میان بگذارید😉
           ]]
       local keyboard = start()
       api.sendKeyboard(msg.chat.id, Start, keyboard, true)
@@ -637,7 +637,7 @@ local action = function(msg, matches)
         end
 		if matches[1] == 'about' then
 		local About = [[نسخه ربات "6.5"
-          تشکر ميکنم از دوست خوبم [رضا](https://t.me/HEXTOR) و [پارسا](https://t.me/prs1378)
+          تشکر ميکنم از دوست خوبم [نگین](https://t.me/iam_nagin) و [امیر](https://t.me/Bot_Api)
           زبان برنامه نويسي شده ربات : لوا]]
 		local keyboard = about()
 		api.editMessageText(msg.chat.id, msg.message_id, About, keyboard, true)
@@ -731,15 +731,15 @@ end
          local keyboard = sp()
           api.editMessageText(msg.chat.id, msg.message_id, 'یکی از اشخاص زیر را انتخاب کنید : ', keyboard, true)
         end
-   				if matches[1] == 'Amir' then
-		 local AHossein = 'نام : امیرحسین \nبا استفاده از اینلاین های زیر متوانید با امیرحسین در ارتباط باشید'
-         local keyboard = AmirH()
-          api.editMessageText(msg.chat.id, msg.message_id, AHossein, keyboard, true)
+   				if matches[1] == 'SorBlack' then
+		 local SorBlack = 'نام : سربلک \nبا استفاده از اینلاین های زیر متوانید با سربلک در ارتباط باشید'
+         local keyboard = SorBlack()
+          api.editMessageText(msg.chat.id, msg.message_id, SorBlack, keyboard, true)
         end
-        if matches[1] == 'mehdi' then
-         local keyboard = mehdi()
-		 local MEHDI = 'نام : مهدی\nبا استفاده از اینلاین های زیر میتوانید  با مهدی در ارتباط باشید'
-        api.editMessageText(msg.chat.id, msg.message_id, MEHDI, keyboard, true)
+        if matches[1] == 'nagin' then
+         local keyboard = nagin()
+		 local NAGIN = 'نام : نگین\nبا استفاده از اینلاین های زیر میتوانید  با نگین در ارتباط باشید'
+        api.editMessageText(msg.chat.id, msg.message_id, NAGIN, keyboard, true)
        end
 		
    
